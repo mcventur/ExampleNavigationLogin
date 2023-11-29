@@ -34,7 +34,7 @@ class CitasFragment : Fragment() {
     }
 
     private fun setearTextoTitulo() {
-        binding.tvTitleCitas.text = args.usuario
+        binding.tvTitleCitas.text = getString(R.string.fragment_citas_title, args.usuario)
     }
 
     private fun inicializarRecycler() {

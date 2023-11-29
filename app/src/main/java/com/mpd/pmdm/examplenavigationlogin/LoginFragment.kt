@@ -84,7 +84,7 @@ class LoginFragment : Fragment() {
     }
 
     companion object {
-        val userPasswords = mutableMapOf<String, String>("max" to "power", "elena" to "nito_del_bosque")
+        val userPasswords = mapOf<String, String>("max" to "power", "elena" to "nito_del_bosque")
     }
 
 
