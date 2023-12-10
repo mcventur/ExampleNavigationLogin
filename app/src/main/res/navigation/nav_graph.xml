@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -32,4 +35,8 @@
             android:name="usuario"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.mpd.pmdm.examplenavigationlogin.RegistroFragment"
+        android:label="RegistroFragment" />
 </navigation>

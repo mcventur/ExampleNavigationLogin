@@ -12,7 +12,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Registro"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,28 +68,28 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnLoginSend"
+        android:id="@+id/btnRegistroSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Login"
-        app:layout_constraintEnd_toStartOf="@+id/btnLoginVolver"
+        android:text="Guardar"
+        app:layout_constraintEnd_toStartOf="@+id/btnRegistroVolver"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
     <Button
-        android:id="@+id/btnLoginVolver"
+        android:id="@+id/btnRegistroVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Volver"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnLoginSend"
-        app:layout_constraintTop_toTopOf="@+id/btnLoginSend" />
+        app:layout_constraintStart_toEndOf="@+id/btnRegistroSend"
+        app:layout_constraintTop_toTopOf="@+id/btnRegistroSend" />
 
     <TextView
-        android:id="@+id/tvErroresLogin"
+        android:id="@+id/tvErroresRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -97,5 +97,5 @@
         android:theme="?attr/errorTextAppearance"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnLoginSend" />
+        app:layout_constraintTop_toBottomOf="@id/btnRegistroSend" />
 </androidx.constraintlayout.widget.ConstraintLayout>

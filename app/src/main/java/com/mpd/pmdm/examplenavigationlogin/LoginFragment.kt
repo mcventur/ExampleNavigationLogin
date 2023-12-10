@@ -28,7 +28,8 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        //Ponemos el foco en el editUsuario
+        binding.editUsuario.requestFocus()
 
         //Boton login
         binding.btnLoginSend.setOnClickListener {
@@ -73,7 +74,7 @@ class LoginFragment : Fragment() {
         if (binding.editUsuario.text.toString().isEmpty() ||
             binding.editPassword.text.toString().isEmpty()
             ) {
-            mensajeError("Debes introducir usuario y contraseña")
+            mensajeError(getString(R.string.error_usuario_password))
             return false
         }
         return true
@@ -84,7 +85,7 @@ class LoginFragment : Fragment() {
     }
 
     companion object {
-        val userPasswords = mapOf<String, String>("max" to "power", "elena" to "nito_del_bosque")
+        val userPasswords = mutableMapOf<String, String>("max" to "power", "elena" to "nito_del_bosque")
     }
 
 

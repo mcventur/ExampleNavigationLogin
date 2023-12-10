@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="today_cites_subtitle">Estas son tus citas de hoy</string>
     <string name="fragment_citas_title">Bienvenido, %s</string>
+    <string name="error_usuario_password">Es obligatorio introducir usuario y contraseña</string>
 </resources>
